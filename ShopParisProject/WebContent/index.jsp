@@ -7,7 +7,7 @@
  <div id="wrap">
 	<div id="contents">
 		<div class="content">
-			<!-- 메인 슬라이드 123 -->
+			<!-- 메인 슬라이드 123 dfs -->
 			<div class="main_slider bxslider-default"  data-auto="true" data-pager="true" data-speed="800" data-pause="4000">
 				<ul class="bxslider">
 					<li><img src="images/banner1.jpg"></li>
