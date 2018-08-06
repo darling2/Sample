@@ -1,0 +1,89 @@
+/* mian_visual */
+
+/*배너슬라이더 주변 회색영역---------------------------*/
+#main_visual{z-index:50;}
+.banner_slider{
+	position:relative;
+	
+	width:1278px;
+	height:654px;
+	
+	top:40px;
+	left:0px;
+	margin-bottom:40px;
+
+}
+
+/*배너슬라이더--------------------------------------------------*/
+.banner_slider .banner_container{
+	/*position:relative;*/
+	position:absolute;
+	left:0; top:0;	
+	width:1278px;/*배너슬라이더 이미지폭*/
+	height:654px;/*배너슬라이더 이미지높이*/
+	margin:0 auto;
+	
+	overflow:hidden;
+	
+}
+
+.banner_slider .banner_container #banner_content{	
+	position:absolute;
+	/* 960(배너이미지폭)*3(배너갯수)=2880px*/
+	width: 3834px;
+}
+
+
+.banner_slider .banner_container #banner_content img{
+	float:left;
+}
+
+/*네비게이션-----------------------------------------------*/
+.banner_slider .banner_nav_container{
+	position:absolute;
+	bottom:5px; right:450px;
+	
+	width:100%;	
+	height:30px;
+	border:0px solid #ff0000;	
+	line-height:30px;
+	vertical-align:middle;
+	border:0px solid #ff0000;
+}
+/*네비게이션 4개 시작 --------------------------------------*/
+.banner_slider .banner_nav_container #banner_nav{
+	position:absolute;
+	right:70px;
+	list-style:none;
+	border:0px solid #ff0000;
+}
+
+
+.banner_slider .banner_nav_container ul#banner_nav li{
+	display:inline;
+	width:25px;
+	height:13px;
+	float:left;
+}
+.banner_slider .banner_nav_container ul#banner_nav li a{
+	float:left;
+	width:13px;
+	height:13px;
+	
+/*	overflow:hidden; /*이거 두개 쓰면 텍스트가 사라진다.*/
+/*	text-indent:-5000px;  /*이거 두개 쓰면 텍스트가 사라진다.*/
+	
+	/*font-size:9pt;
+	
+	line-height:20px;
+	text-align:center;
+	vertical-align:middle;
+	*/
+	background:url(../images/banner_dot_off.png) 
+}
+
+.banner_slider .banner_nav_container ul#banner_nav li a.select{
+	background:url(../images/banner_dot_off.png) ;
+}
+
+

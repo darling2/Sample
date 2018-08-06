@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/*헤더 네이게이션 메뉴바 */
+
+#herder_nav  ul#topnav {
+	width:100%;
+	margin:0 auto;
+	list-style: none;
+	position: relative;
+
+	/*overflow:hidden;*/
+}
+#herder_nav  ul#topnav > li {
+	float: left;
+	font-size:16px;
+	font-family:"Ebrima";
+	width:20%;
+	
+}
+#herder_nav  ul#topnav > li > a {
+	padding: 10px 0px;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	text-align:center;
+	
+}
+#herder_nav  ul#topnav > li:hover,#herder_nav  ul#topnav > li.on { background: #002749;}
+#herder_nav  .topnavBox{width:1000px;background:#01519a;margin:0 auto;}
+
+ul#topnav li .lnb {position:absolute;top:41px;left:0;display: none;height:44px;background:#fff;color: #002749;line-height:44px;opacity:0.8;
+}
+ul#topnav li .lnb.sec{left:200px;}
+ul#topnav li .lnb.third{left:400px;}
+ul#topnav li .lnb.right{text-align:right;}
+ul#topnav li .lnb.on{display:block;}
+
+/*
+ul#topnav li:hover span { display: block; }
+*/
+ul#topnav li .lnb a {color: #002749; font-size:14px;  padding:0 25px; font-family:"Ebrima"; font-weight:600;}
+ul#topnav li .lnb a:hover {color:#787878; }
